@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,
+opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-dm-sans bg-color-background text-white">
+    <div class="w-[90%] mx-auto overflow-hidden max-w-screen-xl">
+        <header>
+            <nav class="flex h-20  items-center
+            justify-between">
+                <h4 class="text-3xl block w-full max-w-[100px]">Aarón Medrano</h4>
+
+                <input type="checkbox" id="menu" class="peer/menu hidden">
+
+                <label for="menu" class="w-10 h-10
+               bg-open-menu bg-cover bg-center bg-green-color
+               rounded-lg cursor-pointer peer-checked/menu:bg-close-menu
+               transition-all z-40 md:hidden"></label>
+
+                <ul
+                    class="fixed inset-0 bg-menu-color px-[5%] grid 
+               gap-6
+               auto-rows-max 
+               content-center justify-items-center clip-circle-0 peer-checked/menu:clip-circle-full
+               transition-[clip-path] duration-500 md:clip-circle-full md:relative md:grid-flow-col md:p-0 md:bg-transparent">
+                    <li>
+                        <a href="index.html">Sobre mi</a>
+                    </li>
+                    <li>
+                        <a href="servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="expe.html">Experiencia laboral</a>
+                    </li>
+                    <li>
+                        <a href="estudios.html">Mis estudios</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+
+        <main>
+            <section class="py-16">
+                <h2 class="text-4xl text-center mb-16 md:text-5xl">Mi experiencia laboral</h2>
+
+                <div class="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-8 ">
+                    <article class="bg-card-color py-12 px-8 border-b-2 border-transparent place-items-center">
+                        <h3 class="text-4xl text-gray-color font-bold mb-5">Lead Java Developer</h3>
+                        <h3 class="text-xl text-green-color font-bold mb-5">Empresa: Innovatech Solutions</h3>
+                        <h3 class="text-xl text-gray-color font-medium mb-7">Años: 2024 - 2025</h3>
+                        <p class="font-light mb-4">Responsable de liderar el desarrollo de aplicaciones empresariales complejas en Java, optimizando la arquitectura y el rendimiento.</p>
+                    </article>
+                    
+                    <article class="bg-card-color py-12 px-8 border-b-2 border-transparent place-items-center">
+                        <h3 class="text-4xl text-gray-color font-bold mb-5">Senior .NET Developer</h3>
+                        <h3 class="text-xl text-green-color font-bold mb-5">Empresa: SoftServe Corp</h3>
+                        <h3 class="text-xl text-gray-color font-medium mb-7">Años: 2025 - 2026</h3>
+                        <p class="font-light mb-4">Desarrollé soluciones de backend en .NET, enfocándome en microservicios para mejorar la escalabilidad de los sistemas internos.</p>
+                    </article>
+                    
+                    <article class="bg-card-color py-12 px-8 border-b-2 border-transparent place-items-center">
+                        <h3 class="text-4xl text-gray-color font-bold mb-5">Frontend Developer</h3>
+                        <h3 class="text-xl text-green-color font-bold mb-5">Empresa: Pixel Hive Studios</h3>
+                        <h3 class="text-xl text-gray-color font-medium mb-7">Años: 2026 - 2027</h3>
+                        <p class="font-light mb-4">Diseñé e implementé interfaces web interactivas, garantizando la usabilidad y el rendimiento para una experiencia de usuario fluida.</p>
+                    </article>
+                    
+                    <article class="bg-card-color py-12 px-8 border-b-2 border-transparent place-items-center">
+                        <h3 class="text-4xl text-gray-color font-bold mb-5">Java Developer</h3>
+                        <h3 class="text-xl text-green-color font-bold mb-5">Empresa: Tecnomedia Labs</h3>
+                        <h3 class="text-xl text-gray-color font-medium mb-7">Años: 2027 - 2028</h3>
+                        <p class="font-light mb-4">Trabajé en el desarrollo de aplicaciones orientadas a la gestión de datos, optimizando procesos y automatizando tareas.</p>
+                    </article>
+                    
+                    <article class="bg-card-color py-12 px-8 border-b-2 border-transparent place-items-center">
+                        <h3 class="text-4xl text-gray-color font-bold mb-5">.NET & Java Full Stack Developer</h3>
+                        <h3 class="text-xl text-green-color font-bold mb-5">Empresa: DataFlex Systems</h3>
+                        <h3 class="text-xl text-gray-color font-medium mb-7">Años: 2028 - 2029</h3>
+                        <p class="font-light mb-4">Participé en el diseño y desarrollo de soluciones full stack utilizando .NET y Java para proyectos personalizados de clientes empresariales.</p>
+                    </article>
+                    
+
+                </div>
+
+            </section>
+
+
+        </main>
+
+    </div>
+
+    <footer class="bg-color-background text-gray-color py-6 text-center">
+        <p class="mb-4">&copy; 2024 Derechos Reservados</p>
+        <ul class="flex justify-center space-x-4">
+            <li><a href="index.html" class="hover:text-green-color font-bold">Sobre mí</a></li>
+            <li><a href="servicios.html" class="hover:text-green-color font-bold">Servicios</a></li>
+            <li><a href="proyectos.html" class="hover:text-green-color font-bold">Proyectos</a></li>
+            <li><a href="expe.html" class="hover:text-green-color font-bold ">Experiencia laboral</a></li>
+            <li><a href="estudios.html" class="hover:text-green-color font-bold">Mis estudios</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

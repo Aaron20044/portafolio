@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,
+opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-dm-sans bg-color-background text-white">
+    <div class="w-[90%] mx-auto overflow-hidden max-w-screen-xl">
+        <header>
+            <nav class="flex h-20  items-center
+            justify-between">
+                <h4 class="text-3xl block w-full max-w-[100px]">Aarón Medrano</h4>
+
+                <input type="checkbox" id="menu" class="peer/menu hidden">
+
+                <label for="menu" class="w-10 h-10
+               bg-open-menu bg-cover bg-center bg-green-color
+               rounded-lg cursor-pointer peer-checked/menu:bg-close-menu
+               transition-all z-40 md:hidden"></label>
+
+                <ul
+                    class="fixed inset-0 bg-menu-color px-[5%] grid 
+               gap-6
+               auto-rows-max 
+               content-center justify-items-center clip-circle-0 peer-checked/menu:clip-circle-full
+               transition-[clip-path] duration-500 md:clip-circle-full md:relative md:grid-flow-col md:p-0 md:bg-transparent">
+                    <li>
+                        <a href="index.html">Sobre mi</a>
+                    </li>
+                    <li>
+                        <a href="servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="expe.html">Experiencia laboral</a>
+                    </li>
+                    <li>
+                        <a href="estudios.html">Mis estudios</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="pt-10 pb-16 md:flex justify-between item-center gap-8">
+                <figure class="md:order-1">
+                    <img src="./assets/foto.jpg" class="w-[90%] aspect-square object-cover 
+                    rounded-full max-w-sm mx-auto">
+                </figure>
+
+                <article class="text-center mt-8 md:w-1/2 md:text-left">
+                    <h1 class="text-4xl md:text-5xl">Hola, yo soy Aarón Medrano</h1>
+                    <p class="text-gray-color text-xl mt-3 mb-6">Java Developer</p>
+
+                    <div class=" grid grid-cols-[repeat(auto-fit,minmax(170px,1fr))]
+                    auto-rows-[60px] gap-8 max-w-lg mx-auto md:mx-0">
+                        <a href="servicios.html" class="bg-green-color flex items-center
+                        justify-center">Servicios</a>
+                    </div>
+                </article>
+
+
+
+
+            </section>
+            <p class="text-gray-color text-xl mt-3 mb-6">
+                Soy un desarrollador apasionado y versátil con experiencia en Java, .NET y tecnologías frontend.
+                Mi enfoque principal es crear aplicaciones escalables, seguras y con un diseño atractivo,
+                siempre buscando la mejor experiencia para el usuario final. Me gusta enfrentar retos y aprender
+                continuamente, lo que me ha llevado a trabajar en diversos proyectos y adquirir un amplio
+                conjunto de habilidades en el desarrollo de software. Con un perfil integral como Java
+                Developer, .NET Developer y Frontend Developer, me esfuerzo por aportar innovación y calidad en
+                cada proyecto.
+            </p>
+        </header>
+
+        <main>
+            <section class="py-16 text-center">
+                <h2 class="text-4xl md:5xl">Contáctame</h2>
+                <p class="mt-8 leading-normal text-gray-color
+                md:w-4/5 md:mx-auto text-xl mb-6">Si quieres comunicarte conmigo lo puede hacer atraves de los
+                    siguientes medios:</p>
+
+                <div class="grid gap-8 justify-center justify-items-center md:grid-cols-3">
+                    <article class="w-max grid justify-items-center">
+                        <div class="p-4 w-max rounded-full aspect-square bg-card-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-green-color w-10">
+                                <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h
+                            16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z">
+                                </path>
+                            </svg>
+                        </div>
+
+                        <h3 class="text-2xl mt-4">Email</h3>
+                        <p class="font-light">dennisacmm2004@gmail.com</p>
+                    </article>
+
+                    <article class="w-max grid justify-items-center">
+                        <div class="p-4 w-max rounded-full aspect-square bg-card-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-green-color w-10">
+                                <path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 
+                                0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 
+                                2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path>
+                            </svg>
+                        </div>
+
+                        <h3 class="text-2xl mt-4">Twitter</h3>
+                        <p class="font-light">@aaron_04</p>
+                    </article>
+
+                    <article class="w-max grid justify-items-center">
+                        <div class="p-4 w-max rounded-full aspect-square bg-card-color">
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"
+                            class="fill-green-color w-10">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 
+                                    1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                                </path>
+                            </svg>
+                        </div>
+
+                        <h3 class="text-2xl mt-4">Github</h3>
+                        <p class="font-light">@aaron_04</p>
+                    </article>
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+
+    <footer class="bg-color-background text-gray-color py-6 text-center">
+        <p class="mb-4">&copy; 2024 Derechos Reservados</p>
+        <ul class="flex justify-center space-x-4">
+            <li><a href="index.html" class="hover:text-green-color font-bold">Sobre mí</a></li>
+            <li><a href="servicios.html" class="hover:text-green-color font-bold">Servicios</a></li>
+            <li><a href="proyectos.html" class="hover:text-green-color font-bold">Proyectos</a></li>
+            <li><a href="expe.html" class="hover:text-green-color font-bold ">Experiencia laboral</a></li>
+            <li><a href="estudios.html" class="hover:text-green-color font-bold">Mis estudios</a></li>
+        </ul>
+    </footer>
+    
+</body>
+
+</html>
